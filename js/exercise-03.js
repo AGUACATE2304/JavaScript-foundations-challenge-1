@@ -5,13 +5,11 @@
 */
 
 function getTypeOf(value) {
-    const typeMapping = {
-        'string': 'string',
-        'number': 'number',
-        'boolean': 'boolean',
-        'null': 'null',
-        'undefined': 'undefined'
-    };
-    const type = typeof value;
-    return typeMapping[type] || (value === null ? 'null' : 'other');
+    return typeof value;
 }
+
+console.log(getTypeOf('Alan'));
+console.log(getTypeOf(10));
+console.log(getTypeOf(true)); 
+console.log(getTypeOf(null)); 
+console.log(getTypeOf(undefined)); 

@@ -10,7 +10,7 @@
 
 */
 
-const name = "Alan Castillo";
+let name = "Alan Castillo";
 let userName = name;
 
 function updateValue(newName){
