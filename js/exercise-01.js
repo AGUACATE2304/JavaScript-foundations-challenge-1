@@ -15,7 +15,6 @@ let userName = name;
 
 function updateValue(newName){
   userName = newName;
-  return userName;
 }
 
 updateVaule("Hard GZ");
