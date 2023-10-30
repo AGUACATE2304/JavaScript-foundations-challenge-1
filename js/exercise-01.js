@@ -17,8 +17,8 @@ function updateValue(newName){
 }
 
 updateValue("Hard GZ");
-console.log(name);
+console.log(userName);
 updateValue(true);
-console.log(name);
+console.log(userName);
 updateValue('28');
-console.log(name);
+console.log(userName);
