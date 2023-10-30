@@ -7,5 +7,8 @@
   },
   "keywords": [],
   "author": "Alan Castillo Esquina",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.0.3"
+  }
 }
