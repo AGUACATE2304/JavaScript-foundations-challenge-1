@@ -7,7 +7,3 @@
 
     HINT1: Be careful for an infinite loop!
 */
-
-
-
-

@@ -5,11 +5,11 @@
 */
 
 function getTypeOf(value) {
-    return typeof value;
+  return typeof value;
 }
 
-console.log(getTypeOf('Alan'));
+console.log(getTypeOf("Alan"));
 console.log(getTypeOf(10));
-console.log(getTypeOf(true)); 
-console.log(getTypeOf(null)); 
-console.log(getTypeOf(undefined)); 
+console.log(getTypeOf(true));
+console.log(getTypeOf(null));
+console.log(getTypeOf(undefined));

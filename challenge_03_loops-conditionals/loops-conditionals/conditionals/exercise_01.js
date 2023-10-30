@@ -7,8 +7,3 @@
 
     HINT: modulus operator ( % ) is your friend
 */
-
-
-
-
-

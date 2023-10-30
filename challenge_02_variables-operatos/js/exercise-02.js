@@ -10,7 +10,6 @@ let letVariable;
 letVariable = "Moo!";
 console.log(letVariable);
 
-
 // I comented the code, because it appears and error
 
 /*
@@ -22,4 +21,3 @@ A Syntax Error apears, because const is a type of variable that need to be initi
 and can not be changed or reasigned.
 This means that you can not declare a const and in an other line change his value;
 */
-
