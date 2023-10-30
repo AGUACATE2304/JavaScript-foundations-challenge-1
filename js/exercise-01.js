@@ -16,7 +16,7 @@ function updateValue(newName){
   userName = newName;
 }
 
-updateVaule("Hard GZ");
+updateValue("Hard GZ");
 console.log(name);
 updateValue(true);
 console.log(name);
