@@ -18,6 +18,9 @@
     You made it!
     All, done!
 */
+
+console.log("---------while Exercice_02---------");
+
 let number = 0;
 
 while (number <= 100) {

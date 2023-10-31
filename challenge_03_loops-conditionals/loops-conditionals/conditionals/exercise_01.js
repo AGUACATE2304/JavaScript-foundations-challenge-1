@@ -8,6 +8,8 @@
     HINT: modulus operator ( % ) is your friend
 */
 
+console.log("---------Conditionals Exercice_01---------");
+
 let randomNumber = 70;
 
 if (randomNumber % 2 === 0) {

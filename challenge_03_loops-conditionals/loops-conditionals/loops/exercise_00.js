@@ -4,6 +4,8 @@
         2. Create a for loop that will print out all the odd numbers between 10 and 40.
 */
 
+console.log("---------loops Exercice_00---------");
+
 for (let number = 10; 40 >= number; number++) {
   if (number % 2 === 0) {
     console.log(number + " is even");

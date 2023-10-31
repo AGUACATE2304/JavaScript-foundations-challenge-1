@@ -8,6 +8,8 @@
     HINT1: Be careful for an infinite loop!
 */
 
+console.log("---------while Exercice_00---------");
+
 let loggedIn = false;
 let foo = 0;
 

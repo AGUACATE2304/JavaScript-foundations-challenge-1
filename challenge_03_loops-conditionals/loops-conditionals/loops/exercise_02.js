@@ -19,6 +19,8 @@
     All, done!
 */
 
+console.log("---------loops Exercice_02---------");
+
 console.log("Welcome to the ultimate Run, Start on 3 , 2 , 1 , Go...");
 
 for (let i = 1; i <= 100; i++) {

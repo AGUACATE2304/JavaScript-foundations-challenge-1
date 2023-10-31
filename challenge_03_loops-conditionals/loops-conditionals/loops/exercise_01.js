@@ -6,6 +6,9 @@
         * if it is equal or greater than 5 print "Logged In!"
         * if it is less than 5 print "Logged Out!"
 */
+
+console.log("---------loops Exercice_01---------");
+
 console.log("Random number evaluator:");
 
 for (let index = 1; index <= 10; index++) {
