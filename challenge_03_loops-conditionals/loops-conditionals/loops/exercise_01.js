@@ -6,3 +6,17 @@
         * if it is equal or greater than 5 print "Logged In!"
         * if it is less than 5 print "Logged Out!"
 */
+console.log("Random number evaluator:");
+
+for (let index = 1; index <= 10; index++) {
+  let randomNumber = Math.floor(Math.random() * 10) + 1;
+  console.log("Try number " + index + " : randomNumber is " + randomNumber);
+
+  if (randomNumber >= 5) {
+    console.log("Logged In!");
+  } else {
+    console.log("Logged Out!");
+  }
+}
+
+//Code has been tested, it works properly!
