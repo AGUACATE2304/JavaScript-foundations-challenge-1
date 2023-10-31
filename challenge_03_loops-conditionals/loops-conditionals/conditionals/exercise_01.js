@@ -7,3 +7,13 @@
 
     HINT: modulus operator ( % ) is your friend
 */
+
+let randomNumber = 70;
+
+if (randomNumber % 2 === 0) {
+  console.log("Variable is even");
+} else {
+  console.log("Variable is odd");
+}
+
+// Code has been tested, it works properly!
