@@ -13,9 +13,6 @@ while (number <= 40) {
     console.log(number);
   }
   number++;
-  if (number > 40) {
-    break;
-  }
 }
 
 number = 10;
@@ -25,9 +22,6 @@ while (number <= 40) {
     console.log(number);
   }
   number++;
-  if (number > 40) {
-    break;
-  }
 }
 
 // Code has been tested, it works properly!

@@ -6,23 +6,23 @@
 
 console.log("---------loops Exercice_00---------");
 
-for (let number = 10; 40 >= number; number++) {
+for (let number = 10; number <= 40; number++) {
   if (number % 2 === 0) {
     console.log(number + " is even");
   }
 
-  if (number % 2 === 1) {
+  if (number % 2 !== 0) {
     console.log(number + " is odd");
   }
 }
 
-// for (let number = 10; 40 >= number; number++) {
+// for (let number = 10; number <= 40 ; number++) {
 //  if (number % 2 === 0) {
 //    console.log(number + " is even");
 //  }
 // }
 //
-// for (let number = 10; 40 >= number; number++) {
+// for (let number = 10; number <= 40 ; number++) {
 //  if (number % 2 === 1) {
 //    console.log(number + " is odd");
 //  }

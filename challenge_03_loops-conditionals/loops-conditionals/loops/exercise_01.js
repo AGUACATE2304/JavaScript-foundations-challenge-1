@@ -22,4 +22,6 @@ for (let index = 1; index <= 10; index++) {
   }
 }
 
+
+
 //Code has been tested, it works properly!

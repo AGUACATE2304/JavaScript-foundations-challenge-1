@@ -10,7 +10,7 @@
 
 console.log("---------Conditionals Exercice_01---------");
 
-let randomNumber = 70;
+let randomNumber = 71;
 
 if (randomNumber % 2 === 0) {
   console.log("Variable is even");
