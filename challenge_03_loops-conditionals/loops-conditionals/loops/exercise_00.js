@@ -32,10 +32,10 @@ const isOddLoop = function (lowThreshold, highThreshold) {
 console.log("###############################");
 console.log("--- Is EVEN or ODD loop Program ---");
 
-isEvenLoop(startAt, endAt);
-isOddLoop(startAt, endAt);
-
 const startAt = 10;
 const endAt = 40;
+
+isEvenLoop(startAt, endAt);
+isOddLoop(startAt, endAt);
 
 console.log("--- Is EVEN or ODD loop complete ---");
