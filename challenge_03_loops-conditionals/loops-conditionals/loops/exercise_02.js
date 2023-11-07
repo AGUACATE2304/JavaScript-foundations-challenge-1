@@ -19,21 +19,34 @@
     All, done!
 */
 
-console.log("---------loops Exercice_02---------");
+/**
+ * isTenthLoop
+ */
+const isTenthLoop = function (lowThreshold, highThreshold) {
+  for (let number = lowThreshold; number <= highThreshold; number++) {
+    if (number === 100) {
+      console.log("You made it!\nAll, done!");
+    }
 
-console.log("Welcome to the ultimate Run, Start on 3 , 2 , 1 , Go...");
-
-for (let i = 1; i <= 100; i++) {
-  if (i % 10 === 0) {
-    if (i == 50) {
+    if (number === 50) {
       console.log("Half way there!");
-    } else if (i == 100) {
-      console.log("You made it!");
-      console.log("All, done!");
-    } else {
-      console.log("Checkpoint! " + i);
+    }
+
+    if (number % 10 === 0 && number % 50 !== 0) {
+      console.log(`Checkpoint! ${number}`);
     }
   }
-}
+};
 
-//Code has been tested, it works properly!
+/**
+ * Program execution
+ */
+console.log("###############################");
+console.log("--- Is TENTH loop Program ---");
+
+const firstValue = 1;
+const lastValue = 100;
+
+isTenthLoop(firstValue, lastValue);
+
+console.log("--- Is TENTH loop complete ---");

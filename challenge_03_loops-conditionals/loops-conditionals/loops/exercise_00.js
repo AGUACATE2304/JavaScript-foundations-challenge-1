@@ -1,31 +1,41 @@
 /*
-        1. Create a for loop that will print out all the even numbers between 10 and 40.
-        
-        2. Create a for loop that will print out all the odd numbers between 10 and 40.
+    1. Create a for loop that will print out all the even numbers between 10 and 40.
+    
+    2. Create a for loop that will print out all the odd numbers between 10 and 40.
 */
 
-console.log("---------loops Exercice_00---------");
-
-for (let number = 10; number <= 40; number++) {
-  if (number % 2 === 0) {
-    console.log(number + " is even");
+/**
+ * isEvenLoop
+ */
+const isEvenLoop = function (lowThreshold, highThreshold) {
+  for (let number = lowThreshold; number < highThreshold; number++) {
+    if (number % 2 === 0) {
+      console.log(`Number ${number} is even`);
+    }
   }
+};
 
-  if (number % 2 !== 0) {
-    console.log(number + " is odd");
+/**
+ * isOddLoop
+ */
+const isOddLoop = function (lowThreshold, highThreshold) {
+  for (let number = lowThreshold; number < highThreshold; number++) {
+    if (number % 2 !== 0) {
+      console.log(`Number ${number} is odd`);
+    }
   }
-}
+};
 
-// for (let number = 10; number <= 40 ; number++) {
-//  if (number % 2 === 0) {
-//    console.log(number + " is even");
-//  }
-// }
-//
-// for (let number = 10; number <= 40 ; number++) {
-//  if (number % 2 === 1) {
-//    console.log(number + " is odd");
-//  }
-// }
-//
-// Code has been tested, it works properly!
+/**
+ * Program execution
+ */
+console.log("###############################");
+console.log("--- Is EVEN or ODD loop Program ---");
+
+const startAt = 10;
+const endAt = 40;
+
+isEvenLoop(startAt, endAt);
+isOddLoop(startAt, endAt);
+
+console.log("--- Is EVEN or ODD loop complete ---");
