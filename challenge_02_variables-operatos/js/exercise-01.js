@@ -12,7 +12,7 @@
 
 let userName = "Alan Castillo";
 
-function updateValue(newName){
+function updateValue(newName) {
   userName = newName;
 }
 
@@ -20,5 +20,5 @@ updateValue("Hard GZ");
 console.log(userName);
 updateValue(true);
 console.log(userName);
-updateValue('28');
+updateValue("28");
 console.log(userName);
