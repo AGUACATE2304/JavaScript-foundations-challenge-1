@@ -1,7 +1,7 @@
 # JavaScript foundations
 
 <figure style="text-align: center">
-   <img src="./assets/javascript-icon.png" alt="DOM Tree" width="100" />
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/640px-JavaScript-logo.png" alt="DOM Tree" width="100" />
    <figcaption>JavaScript</figcaption>
 </figure>
 
@@ -353,3 +353,188 @@ Returns false if its single operand that can be converted to true; otherwise, re
 !true; // false
 !false; // true
 ```
+
+## About conditional statements
+
+### `if/else`
+
+The `if...else` statement executes a statement if a specified condition is _truthy_. If the condition is _falsy_, another statement in the optional else clause will be executed.
+
+<div style="background-color: grey; border-radius: 4px; padding: 1rem">
+In JavaScript, a falsy  value is a value that is considered false when encountered in a Boolean context. These values are:
+<ul>
+<li>false</li>
+<li>0</li>
+<li>-0</li>
+<li>0n</li>
+<li>""</li>
+<li>null</li>
+<li>undefined</li>
+<li>NaN</li>
+</ul>
+
+On the other hand, a truthy value is a value that is considered true when encountered in a Boolean context. All values are truthy unless they are defined as falsy.
+
+</div>
+
+#### Syntax
+
+```javascript
+// condition is an expression that is considered to be either truthy or falsy
+if (condition) { or falsy.
+  statement1
+};
+
+// With an else clause
+if (condition) {
+  statement1
+}
+else {
+  statement2
+};
+```
+
+#### Example
+
+```javascript
+let greeting = "";
+const leaving = true;
+
+if (leaving === true) {
+  greeting = "Goodbye!";
+} else {
+  greeting = "Hello!";
+}
+
+console.log(greeting); // Goodbye!
+```
+
+### Conditional (ternary) operator
+
+The conditional (ternary) operator takes three operands:
+
+- a condition followed by a question mark (`?`),
+- then an expression to execute if the condition is truthy followed by a colon (`:`)
+- and finally the expression to execute if the condition is falsy.
+
+This operator is frequently used as an alternative to an `if...else` statement.
+
+#### Syntax
+
+```javascript
+condition ? exprIfTrue : exprIfFalse;
+```
+
+#### Example
+
+```javascript
+const role = "admin";
+const salary = role === "admin" ? 10 : 8;
+
+console.log(salary); // 10
+```
+
+## About loops
+
+A loop is a control structure that allows a block of instructions to be repeated as many times as we want.
+
+````
+
+### `for`
+
+The for statement creates a loop that consists of three optional expressions, enclosed in parentheses and separated by semicolons, followed by a statement (usually a block statement) to be executed in the loop.
+
+#### Syntax
+
+```javascript
+for (initialization; condition; afterthought) {
+  // statement;
+}
+````
+
+#### Example
+
+```javascript
+// initialization >>  let number = 1 >> variable "number" has value '1' when loop starts
+// condition >> number <= 10 >> loop will be executed while variable "number" is less or equal that 10
+// afterthought >> number++ >> variable "number" is increased by 1 at each iteration
+
+for (let number = 1; number <= 10; number++) {
+  console.log(number); // 1 > 2 > 3 > ...  > 10
+}
+```
+
+```javascript
+// We can take array length to set the condition
+// Then we can iterate over each item of the collection
+
+const animals = ["🐮", "🐷", "🐔"];
+
+for (let index = 0; index <= animals.length; index++) {
+  console.log(animals[index]); //🐮 > 🐷 > 🐔
+}
+```
+
+### `while`
+
+The `while` statement creates a loop that executes a specified statement as long as the test condition evaluates to true. The condition is evaluated before executing the statement.
+
+#### Syntax
+
+```javascript
+while (condition) {
+  statement;
+}
+```
+
+#### Example
+
+```javascript
+let n = 0;
+
+while (n < 3) {
+  n++;
+  console.log(n); // 1 > 2 > 3
+}
+```
+
+### `do...while`
+
+The `do...while` statement creates a loop that executes a specified statement until the test condition evaluates to false. The condition is evaluated after executing the statement, **resulting in the specified statement executing at least once**.
+
+#### Syntax
+
+```javascript
+do {
+  // statement;
+} while (condition);
+```
+
+#### Example
+
+```javascript
+let result = 0;
+let increment = 1;
+let flag = false;
+
+do {
+  result = result + increment;
+} while (flag === true);
+// Despite flag === false this will still loop once before condition is evaluate
+
+console.log(result); // 1
+```
+
+## About functions
+
+### Declaration function
+
+todo
+
+### Expression function
+
+todo
+
+### Callbacks
+
+todo
