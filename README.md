@@ -524,17 +524,3 @@ do {
 
 console.log(result); // 1
 ```
-
-## About functions
-
-### Declaration function
-
-todo
-
-### Expression function
-
-todo
-
-### Callbacks
-
-todo
